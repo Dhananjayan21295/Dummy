@@ -1,0 +1,76 @@
+@CHARSET "ISO-8859-1";
+
+.loginform {
+	margin: 150px 250px;
+	border-radius: 2em;
+	background-color: #4d94ff;
+	height: 350px;
+	width: 600px
+}
+
+.textcolour {
+	color: white;
+}
+
+#login {
+	border: 1px;
+	border-radius: 2em;
+	background-color: #1a53ff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+}
+
+#search {
+	width: 200px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	background-color: white;
+	background-image: url('search.png');
+	background-repeat: no-repeat;
+	padding: 5px 20px 5px 20px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+
+#go {
+	padding: 5px 20px 5px 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.searchpos {
+	position: fixed;
+	top: 5px;
+	left: 750px
+}
+
+.searchbtn {
+	position: fixed;
+	top: 5px;
+	left: 950px;
+	background-color: #85adad;
+	
+}
+
+
+
+.navbar-custom {
+	color: #FFFFFF;
+	background-color: #66b3ff;
+	min-height:70px;
+	margin-bottom:0px;
+}
+
+.para{
+	 margin-top:0px;  
+	 font-size: 25px;
+	 background-color: #85adad;
+}
+
+input[type=text]{
+	margin-bottom:10px;
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Develop</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <welcome-file-list>
+    <welcome-file>New.jsp </welcome-file>
+    <welcome-file>New1.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>First</servlet-name>
+    <servlet-class>com.grails.web.FirstServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>First</servlet-name>
+    <url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Second</servlet-name>
+    <servlet-class>com.grails.web.SecondServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Second</servlet-name>
+    <url-pattern>/best</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Third</servlet-name>
+    <servlet-class>com.grails.web.Retrive</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Third</servlet-name>
+    <url-pattern>/nest</url-pattern>
+  </servlet-mapping>
+</web-app>
